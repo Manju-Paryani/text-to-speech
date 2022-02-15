@@ -9,7 +9,7 @@ root.geometry("500x500")
 root.configure(bg = "white smoke")
 root.title("Text to Speech Convertor")
 
-Label(root, text = "TEXT_TO_SPEECH", font = "arial 20 bold", bg='white smoke').pack()
+Label(root, text = "TEXT TO SPEECH", font = "arial 20 bold", bg='white smoke').pack()
 Label(text ="Manju Paryani", font = 'arial 15 bold', bg ='white smoke' , width = '20').pack(side = 'bottom')
 Msg = StringVar()
 Label(root,text ="Enter Text", font = 'arial 15 bold', bg ='white smoke').place(x=20,y=60)
